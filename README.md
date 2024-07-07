@@ -9,7 +9,7 @@ Backend is made using nodejs and express
 
 All chat data is handled by ChatEngine.io
 
-Backend uses reactjs and [some prebuilt UI components](https://www.npmjs.com/package/react-chat-engine-advanced)
+Frontend uses reactjs and [some prebuilt UI components](https://www.npmjs.com/package/react-chat-engine-advanced)
 
 
 ![image](https://github.com/LegendLeaks/reactjs-chat-app/assets/79763213/8413ff27-6bc1-4fa3-90c9-6b0b57b3d6a7)
