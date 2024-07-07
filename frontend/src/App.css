@@ -1,7 +1,8 @@
 body {
-  background-image: url('./assets/valley.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('./assets/bg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position-y: center;
   height: 100vh;
   width: 100vw;
   margin: 0px;
@@ -10,7 +11,7 @@ body {
 .background {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
+  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgba(20, 23, 33, 0.6) 50%, rgba(20, 23, 33, 0.3) 100%);
   /* Vertical center */
   display: table-cell;
   vertical-align: middle;
@@ -49,7 +50,7 @@ body {
   position: absolute;
   top: 8px;
   left: 18px;
-  font-size: 11px;
+  font-size: 10px;
   color: rgb(175, 175, 175);
   font-family: Avenir;
   width: 100px;
@@ -66,8 +67,10 @@ body {
   margin-bottom: 12px;
 }
 .auth-button {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   height: 53px;
+  font-size: 16px;
   color: white;
   background-color: #fa541c;
   border: none;
@@ -79,7 +82,7 @@ body {
   -webkit-transition: all .44s ease;
   -moz-transition: all .44s ease;
 }
-.auth-button:hover { filter: brightness(145%); }
+.auth-button:hover { filter: brightness(90%); }
 
 .chat-wrapper {
   height: 80vh; 
